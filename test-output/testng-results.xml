@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Fail]]>
+    </line>
+  </reporter-output>
+  <suite name="Akhi" duration-ms="174850" started-at="2020-06-18T05:01:49Z" finished-at="2020-06-18T05:04:44Z">
+    <groups>
+    </groups>
+    <test name="Chromebrowser" duration-ms="81881" started-at="2020-06-18T05:01:49Z" finished-at="2020-06-18T05:03:11Z">
+      <class name="june18.Using_crossbrowser">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="setUp" is-config="true" duration-ms="9691" started-at="2020-06-18T10:31:49Z" finished-at="2020-06-18T10:31:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="verifylogin" duration-ms="6890" started-at="2020-06-18T10:31:59Z" data-provider="supplydata" finished-at="2020-06-18T10:32:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="tearDown" is-config="true" duration-ms="200" started-at="2020-06-18T10:32:06Z" finished-at="2020-06-18T10:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="setUp" is-config="true" duration-ms="9603" started-at="2020-06-18T10:32:06Z" finished-at="2020-06-18T10:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="verifylogin" duration-ms="5661" started-at="2020-06-18T10:32:15Z" data-provider="supplydata" finished-at="2020-06-18T10:32:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="tearDown" is-config="true" duration-ms="185" started-at="2020-06-18T10:32:21Z" finished-at="2020-06-18T10:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="setUp" is-config="true" duration-ms="8949" started-at="2020-06-18T10:32:21Z" finished-at="2020-06-18T10:32:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="verifylogin" duration-ms="6732" started-at="2020-06-18T10:32:30Z" data-provider="supplydata" finished-at="2020-06-18T10:32:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="tearDown" is-config="true" duration-ms="146" started-at="2020-06-18T10:32:37Z" finished-at="2020-06-18T10:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="setUp" is-config="true" duration-ms="10781" started-at="2020-06-18T10:32:37Z" finished-at="2020-06-18T10:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="verifylogin" duration-ms="6231" started-at="2020-06-18T10:32:48Z" data-provider="supplydata" finished-at="2020-06-18T10:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="tearDown" is-config="true" duration-ms="129" started-at="2020-06-18T10:32:54Z" finished-at="2020-06-18T10:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="setUp" is-config="true" duration-ms="10607" started-at="2020-06-18T10:32:54Z" finished-at="2020-06-18T10:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="verifylogin" duration-ms="5850" started-at="2020-06-18T10:33:05Z" data-provider="supplydata" finished-at="2020-06-18T10:33:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhilesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@1888ff2c]" name="tearDown" is-config="true" duration-ms="192" started-at="2020-06-18T10:33:11Z" finished-at="2020-06-18T10:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- june18.Using_crossbrowser -->
+    </test> <!-- Chromebrowser -->
+    <test name="firefoxbrowser" duration-ms="92897" started-at="2020-06-18T05:03:11Z" finished-at="2020-06-18T05:04:44Z">
+      <class name="june18.Using_crossbrowser">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="setUp" is-config="true" duration-ms="9914" started-at="2020-06-18T10:33:11Z" finished-at="2020-06-18T10:33:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="verifylogin" duration-ms="7231" started-at="2020-06-18T10:33:21Z" data-provider="supplydata" finished-at="2020-06-18T10:33:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="tearDown" is-config="true" duration-ms="3247" started-at="2020-06-18T10:33:28Z" finished-at="2020-06-18T10:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="setUp" is-config="true" duration-ms="9457" started-at="2020-06-18T10:33:31Z" finished-at="2020-06-18T10:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="verifylogin" duration-ms="5089" started-at="2020-06-18T10:33:41Z" data-provider="supplydata" finished-at="2020-06-18T10:33:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="tearDown" is-config="true" duration-ms="3608" started-at="2020-06-18T10:33:46Z" finished-at="2020-06-18T10:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="setUp" is-config="true" duration-ms="9971" started-at="2020-06-18T10:33:50Z" finished-at="2020-06-18T10:34:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="verifylogin" duration-ms="7540" started-at="2020-06-18T10:34:00Z" data-provider="supplydata" finished-at="2020-06-18T10:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="tearDown" is-config="true" duration-ms="3256" started-at="2020-06-18T10:34:07Z" finished-at="2020-06-18T10:34:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="setUp" is-config="true" duration-ms="8751" started-at="2020-06-18T10:34:10Z" finished-at="2020-06-18T10:34:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="verifylogin" duration-ms="5713" started-at="2020-06-18T10:34:19Z" data-provider="supplydata" finished-at="2020-06-18T10:34:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="tearDown" is-config="true" duration-ms="2065" started-at="2020-06-18T10:34:25Z" finished-at="2020-06-18T10:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="setUp" is-config="true" duration-ms="7869" started-at="2020-06-18T10:34:27Z" finished-at="2020-06-18T10:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifylogin(java.lang.String, java.lang.String)[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="verifylogin" duration-ms="5347" started-at="2020-06-18T10:34:35Z" data-provider="supplydata" finished-at="2020-06-18T10:34:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akhilesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:june18.Using_crossbrowser@5ba23b66]" name="tearDown" is-config="true" duration-ms="3828" started-at="2020-06-18T10:34:40Z" finished-at="2020-06-18T10:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- june18.Using_crossbrowser -->
+    </test> <!-- firefoxbrowser -->
+  </suite> <!-- Akhi -->
+</testng-results>
